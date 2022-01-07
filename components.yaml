@@ -5,7 +5,7 @@ GEOSgcm:
 env:
   local: ./@env
   remote: ../ESMA_env.git
-  tag: v3.2.0
+  branch: intel2021.4
   develop: main
 
 cmake:
@@ -36,7 +36,7 @@ GMAO_Shared:
 MAPL:
   local: ./src/Shared/@MAPL
   remote: ../MAPL.git
-  tag: v2.6.8
+  branch: feature/aoloso/hybrid-openmp
   develop: develop
 
 FMS:
@@ -74,7 +74,7 @@ GOCART:
   local: ./src/Components/@GEOSgcm_GridComp/GEOSagcm_GridComp/GEOSphysics_GridComp/@GEOSchem_GridComp/@GOCART
   remote: ../GOCART.git
 #  sparse: ./config/GOCART.sparse
-  branch: feature/esherman/gocart2g_develop_v2_aerochemUpdates
+  branch: feature/aoloso/hybrid-openmp
   develop: develop
 
 mom:
@@ -93,7 +93,7 @@ mom6:
 GEOSgcm_App:
   local: ./src/Applications/@GEOSgcm_App
   remote: ../GEOSgcm_App.git
-  branch: feature/esherman/gocart2g_develop_v2_aerochemUpdates
+  branch: feature/aoloso/hybrid-openmp
   develop: develop
 
 UMD_Etc:
