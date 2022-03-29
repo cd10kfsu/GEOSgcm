@@ -36,8 +36,9 @@ GMAO_Shared:
 MAPL:
   local: ./src/Shared/@MAPL
   remote: ../MAPL.git
-  tag: v2.18.0
-  develop: develop
+  #tag: v2.18.0
+  #develop: develop
+  develop: v2.18.0_voting
 
 FMS:
   local: ./src/Shared/@FMS
@@ -48,7 +49,7 @@ FMS:
 GEOSgcm_GridComp:
   local: ./src/Components/@GEOSgcm_GridComp
   remote: ../GEOSgcm_GridComp.git
-  tag: v1.15.0
+  tag: gsi_coupling_v1.15.0
   sparse: ./config/GEOSgcm_GridComp.sparse
   develop: develop
 
@@ -73,13 +74,13 @@ GEOSchem_GridComp:
 HEMCO:
   local: ./src/Components/@GEOSgcm_GridComp/GEOSagcm_GridComp/GEOSphysics_GridComp/@GEOSchem_GridComp/Shared/HEMCO/@HEMCO
   remote: ../HEMCO.git
-  tag: geos/v2.2.2
+  tag: hemco/v3.3
   develop: geos/develop
 
 geos-chem:
   local: ./src/Components/@GEOSgcm_GridComp/GEOSagcm_GridComp/GEOSphysics_GridComp/@GEOSchem_GridComp/GEOSCHEMchem_GridComp/@geos-chem
   remote: ../geos-chem.git
-  tag: geos/v13.0.0-rc1
+  tag: geos-chem/v13.4-dev01
   develop: geos/develop
 
 GOCART:
