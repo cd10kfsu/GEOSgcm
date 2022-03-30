@@ -79,7 +79,7 @@ HEMCO:
 geos-chem:
   local: ./src/Components/@GEOSgcm_GridComp/GEOSagcm_GridComp/GEOSphysics_GridComp/@GEOSchem_GridComp/GEOSCHEMchem_GridComp/@geos-chem
   remote: ../geos-chem.git
-  tag: geos/cfv2-rc1-c360p8
+  tag: geos/cfv2-rc1-c360p9
   develop: geos/develop
 
 GOCART:
